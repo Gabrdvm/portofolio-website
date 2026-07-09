@@ -167,7 +167,9 @@
                     <span>Python</span><span>PRAW</span><span>Lexicon</span><span>Wordcloud</span>
                   </div>
                   <div class="project-links">
-                    <a href="https://github.com/Gabrdvm/sentiment-analysis-reddit" class="project-link" target="_blank"
+                    <a
+                      href="https://github.com/Gabrdvm/sentiment-analysis-reddit"
+                      class="project-link" target="_blank"
                       rel="noopener">
                       <i class="bi bi-github me-1"></i>GitHub
                     </a>
@@ -186,29 +188,31 @@
               <div class="project-card project-card--full">
                 <div class="project-thumb project-thumb--dl">
                   <span class="project-category-badge">Deep Learning</span>
-                  <img src="assets/img/creditCardFraud.jpg" alt="Credit Card Fraud Detection">
+                  <img src="assets/img/creditCardFraud.jpg"
+                    alt="Credit Card Fraud Detection">
                 </div>
                 <div class="project-body">
                   <div class="project-tags">
                     <span class="tag">Autoencoder</span>
                     <span class="tag">ANN</span>
                   </div>
-                  <h3 class="project-title">Credit Card Fraud Detection using Autoencoder</h3>
+                  <h3 class="project-title">Credit Card Fraud Detection using
+                    Autoencoder</h3>
                   <p class="project-desc">
-                    Implementasi Autoencoder untuk deteksi anomali pada data
-                    time series. Digunakan untuk
-                    mengidentifikasi pola tidak normal dalam data sensor dengan
-                    reconstruction error threshold.
+                    Project ini membangun sistem deteksi fraud transaksi kartu
+                    kredit menggunakan pendekatan unsupervised anomaly detection
+                    berbasis Autoencoder.
                   </p>
                   <div class="project-stack">
                     <span>Python</span><span>Keras</span><span>NumPy</span><span>Matplotlib</span>
                   </div>
                   <div class="project-links">
-                    <a href="#" class="project-link" target="_blank"
+                    <a href="https://github.com/Gabrdvm/credit-card-fraud-detection" class="project-link" target="_blank"
                       rel="noopener">
                       <i class="bi bi-github me-1"></i>GitHub
                     </a>
-                    <a href="#" class="project-link project-link--detail">
+                    <a href="#" class="project-link project-link--detail"
+                      data-bs-toggle="modal" data-bs-target="#modalProject3">
                       Detail <i class="bi bi-arrow-right ms-1"></i>
                     </a>
                   </div>
@@ -598,21 +602,17 @@
             </ul>
             <h6 class="modal-section-title">Tech Stack</h6>
             <div class="project-stack">
-              <span>Python</span>
-              <span>YOLOv12</span>
-              <span>Roboflow</span>
-              <span>OpenCV</span>
-              <span>Pandas</span>
-              <span>Matplotlib</span>
-              <span>Scikit-learn</span>
-              <span>Gradio</span>
+              <span class="tag">Python</span>
+              <span class="tag">YOLOv12</span>
+              <span class="tag">Roboflow</span>
+              <span class="tag">OpenCV</span>
+              <span class="tag">Pandas</span>
+              <span class="tag">Matplotlib</span>
+              <span class="tag">Scikit-learn</span>
+              <span class="tag">Gradio</span>
             </div>
           </div>
           <div class="modal-footer">
-            <a href="#" class="btn-outline-custom btn-sm" target="_blank"
-              rel="noopener">
-              <i class="bi bi-github me-2"></i>GitHub
-            </a>
             <button type="button" class="btn-secondary-custom"
               data-bs-dismiss="modal">Tutup</button>
           </div>
@@ -626,8 +626,9 @@
       <div class="modal-dialog modal-lg modal-dialog-centered">
         <div class="modal-content project-modal">
           <div class="modal-header">
-            <h5 class="modal-title" id="modalProject2Label">Clothing
-              Detection</h5>
+            <h5 class="modal-title" id="modalProject2Label">Analisis Sentimen
+              Isu Perundungan
+              Mahasiswa dari Reddit</h5>
             <button type="button" class="btn-close" data-bs-dismiss="modal"
               aria-label="Close"></button>
           </div>
@@ -640,18 +641,31 @@
             </div>
             <div class="project-tags mb-3">
               <span class="tag">Python</span>
-              <span class="tag">YOLOv12.s</span>
-              <span class="tag">Roboflow</span>
-              <span class="tag">Computer Vision</span>
-              <span class="tag">Ultralytics</span>
+              <span class="tag">Sentiment Analysis</span>
+              <span class="tag">Reddit API</span>
+              <span class="tag">Text Preprocessing</span>
             </div>
             <h6 class="modal-section-title">Deskripsi</h6>
-            <p">
-              Model YOLO yang dikembangkan untuk mendeteksi pakaian yang terdiri
-              dari dress, jacket, pants, shirt, short, skirt, sweater, T-shirt
-              menggunakan YOLOv12.s.
-              Model dilatih menggunakan custom dataset dengan augmentasi data
-              untuk meningkatkan performa. Model mencapai precision sebesar 87%.
+            <p>
+              Proyek ini bertujuan untuk menganalisis sentimen publik dari
+              diskusi Reddit terkait kasus perundungan mahasiswa dengan
+              memanfaatkan pendekatan Natural Language Processing (NLP). Data
+              dikumpulkan menggunakan Reddit API dari beberapa subreddit dan
+              kata kunci yang relevan, kemudian diproses melalui tahapan text
+              preprocessing seperti case folding, penghapusan URL dan karakter
+              non-teks, normalisasi kata informal bahasa Indonesia, serta
+              filtering stopwords.
+            </p>
+
+            <p>
+              Setelah tahap preprocessing, teks diterjemahkan ke bahasa Inggris
+              untuk mendukung analisis tambahan, sementara analisis sentimen
+              utama dilakukan menggunakan pendekatan lexicon-based sentiment
+              analysis dengan kamus kata positif dan negatif yang disesuaikan
+              dengan konteks data. Hasil akhir proyek ini berupa klasifikasi
+              sentimen positif, negatif, dan netral, persentase distribusi
+              sentimen, serta visualisasi word cloud untuk menampilkan kata-kata
+              yang paling sering muncul dalam diskusi.
             </p>
             <h6 class="modal-section-title">Fitur Utama</h6>
             <ul>
@@ -673,20 +687,14 @@
             </ul>
             <h6 class="modal-section-title">Tech Stack</h6>
             <div class="project-stack">
-              <span>Python</span>
-              <span>PRAW</span>
-              <span>Pandas</span>
-              <span>NLTK</span>
-              <span>Googletrans</span>
-              <span>Matplotlib</span>
-              <span>WordCloud</span>
+              <span class="tag">Python</span>
+              <span class="tag">PRAW</span>
+              <span class="tag">Pandas</span>
+              <span class="tag">Matplotlib</span>
+              <span class="tag">WordCloud</span>
             </div>
           </div>
           <div class="modal-footer">
-            <a href="#" class="btn-outline-custom btn-sm" target="_blank"
-              rel="noopener">
-              <i class="bi bi-github me-2"></i>GitHub
-            </a>
             <button type="button" class="btn-secondary-custom"
               data-bs-dismiss="modal">Tutup</button>
           </div>
@@ -700,8 +708,8 @@
       <div class="modal-dialog modal-lg modal-dialog-centered">
         <div class="modal-content project-modal">
           <div class="modal-header">
-            <h5 class="modal-title" id="modalProject3Label">Clothing
-              Detection</h5>
+            <h5 class="modal-title" id="modalProject3Label">Credit Card Fraud
+              Detection using Autoencoder</h5>
             <button type="button" class="btn-close" data-bs-dismiss="modal"
               aria-label="Close"></button>
           </div>
@@ -709,40 +717,65 @@
             <div class="modal-thumb project-thumb--cv mb-4"
               style="height:200px; border-radius:12px;">
               <div class="project-thumb-icon" style="font-size:3rem;">
-                <img src="assets/img/clothingDetection.png">
+                <img src="assets/img/creditCardfraud.jpg">
               </div>
             </div>
             <div class="project-tags mb-3">
               <span class="tag">Python</span>
-              <span class="tag">YOLOv12.s</span>
-              <span class="tag">Roboflow</span>
-              <span class="tag">Computer Vision</span>
-              <span class="tag">Ultralytics</span>
+              <span class="tag">Machine Learning</span>
+              <span class="tag">Anomaly Detection</span>
+              <span class="tag">Autoencoder</span>
+              <span class="tag">Fraud Detection</span>
             </div>
             <h6 class="modal-section-title">Deskripsi</h6>
-            <p">
-              Model YOLO yang dikembangkan untuk mendeteksi pakaian yang terdiri
-              dari dress, jacket, pants, shirt, short, skirt, sweater, T-shirt
-              menggunakan YOLOv12.s.
-              Model dilatih menggunakan custom dataset dengan augmentasi data
-              untuk meningkatkan performa. Model mencapai precision sebesar 87%.
+            <p>
+              Proyek ini membangun sistem deteksi fraud pada transaksi kartu
+              kredit menggunakan pendekatan anomaly detection berbasis
+              Autoencoder. Dataset diproses terlebih dahulu melalui tahap
+              pembagian data, standardisasi fitur numerik, serta pemisahan data
+              normal dan fraud untuk mendukung skenario pelatihan unsupervised.
+              Model Autoencoder dilatih hanya menggunakan transaksi normal agar
+              mampu mempelajari pola transaksi yang wajar dan menghasilkan
+              reconstruction error yang lebih tinggi pada data anomali.
+            </p>
+
+            <p>
+              Setelah proses training, reconstruction error dihitung pada
+              validation set dan test set. Threshold optimal ditentukan melalui
+              threshold tuning berdasarkan F1-score terbaik pada validation set,
+              sehingga model tidak hanya bergantung pada threshold tetap.
+              Evaluasi akhir dilakukan pada test set menggunakan confusion
+              matrix, classification report, ROC-AUC, serta visualisasi
+              distribusi reconstruction error untuk membandingkan pola transaksi
+              normal dan fraud. Proyek ini menekankan bagaimana Autoencoder
+              dapat digunakan sebagai pendekatan anomaly detection untuk kasus
+              fraud detection pada data yang tidak seimbang.
             </p>
             <h6 class="modal-section-title">Fitur Utama</h6>
             <ul>
-              <li>GUI interaktif untuk deteksi pakaian.</li>
-              <li>Memiliki kelas yang beragam. </li>
-              <li>Custom dataset dengan menggunakan anotasi di roboflow. </li>
+              <li>Melakukan preprocessing dan standardisasi data transaksi kartu
+                kredit sebelum proses pelatihan model.</li>
+              <li>Melatih Autoencoder hanya pada transaksi normal untuk
+                mempelajari pola data non-fraud dan mendeteksi anomali melalui
+                reconstruction error.</li>
+              <li>Menentukan threshold terbaik menggunakan validation set dan
+                F1-score agar prediksi fraud lebih adaptif.</li>
+              <li>Mengevaluasi performa model menggunakan confusion matrix,
+                classification report, ROC-AUC, serta visualisasi distribusi
+                reconstruction error.</li>
             </ul>
             <h6 class="modal-section-title">Tech Stack</h6>
             <div class="project-stack">
-              <span>Python</span><span>YOLOv12</span><span>Ultralytics</span><span>Roboflow</span>
+              <span class="tag">Python</span>
+              <span class="tag">TensorFlow</span>
+              <span class="tag">Scikit-learn</span>
+              <span class="tag">Pandas</span>
+              <span class="tag">NumPy</span>
+              <span class="tag">Matplotlib</span>
+              <span class="tag">Seaborn</span>
             </div>
           </div>
           <div class="modal-footer">
-            <a href="#" class="btn-outline-custom btn-sm" target="_blank"
-              rel="noopener">
-              <i class="bi bi-github me-2"></i>GitHub
-            </a>
             <button type="button" class="btn-secondary-custom"
               data-bs-dismiss="modal">Tutup</button>
           </div>
