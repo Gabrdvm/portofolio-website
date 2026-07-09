@@ -1,0 +1,819 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Experience — Gabriel Davinche Manalu</title>
+    <meta name="description"
+      content="Proyek, sertifikat, organisasi, dan pencapaian Gabriel Davinche Manalu.">
+
+    <!-- Favicons -->
+    <link href="assets/img/favicon.svg" rel="icon">
+    <link href="assets/img/apple-touch-icon.svg" rel="apple-touch-icon">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&display=swap"
+      rel="stylesheet">
+
+    <!-- Bootstrap 5 -->
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
+      rel="stylesheet">
+    <!-- AOS -->
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+
+    <!-- Main CSS -->
+    <link href="assets/css/main.css" rel="stylesheet">
+  </head>
+
+  <body class="experience-page">
+
+    <!-- ======= Navbar ======= -->
+    <header id="header" class="site-header sticky-top">
+      <div class="container d-flex align-items-center justify-content-between">
+        <a href="index.html" class="logo-link">
+          <span class="logo-text">GDM<span class="logo-dot">.</span></span>
+        </a>
+        <nav id="navmenu" class="navmenu">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="experience.html" class="active">Experience</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+          <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+        </nav>
+      </div>
+    </header>
+    <!-- /Navbar -->
+
+    <main>
+
+      <!-- ======= Page Header ======= -->
+      <section class="page-hero section-pad-sm">
+        <div class="container">
+          <div class="row">
+            <div class="col-12" data-aos="fade-up">
+              <h1 class="page-title">Experience</h1>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ======= Tab Navigation ======= -->
+      <section class="exp-nav section-pad-xs bg-subtle">
+        <div class="container">
+          <div class="exp-tabs" data-aos="fade-up">
+            <a href="#projects" class="exp-tab active">
+              <i class="bi bi-folder2-open me-2"></i>Projects
+            </a>
+            <a href="#certificates" class="exp-tab">
+              <i class="bi bi-patch-check me-2"></i>Certificates
+            </a>
+            <a href="#organizations" class="exp-tab">
+              <i class="bi bi-people me-2"></i>Organizations
+            </a>
+            <a href="#achievements" class="exp-tab">
+              <i class="bi bi-trophy me-2"></i>Achievements
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- ======= Projects Section ======= -->
+      <section id="projects" class="projects-full section-pad">
+        <div class="container">
+          <div class="section-header" data-aos="fade-up">
+            <h2 class="section-heading">Projects</h2>
+          </div>
+
+          <!-- Filter bar -->
+          <div class="filter-bar" data-aos="fade-up" data-aos-delay="50">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="ai-ml">AI / ML</button>
+            <button class="filter-btn" data-filter="web">Web</button>
+            <button class="filter-btn" data-filter="mobile">Mobile</button>
+            <button class="filter-btn" data-filter="uiux">UI/UX</button>
+          </div>
+
+          <div class="row g-4 mt-2" id="projectsGrid">
+
+            <!-- Project 1-->
+            <div class="col-lg-4 col-md-6" data-category="ai-ml"
+              data-aos="fade-up" data-aos-delay="0">
+              <div class="project-card project-card--full">
+                <div class="project-thumb project-thumb--cv">
+                  <span class="project-category-badge">AI / ML</span>
+                  <img src="assets/img/clothingDetection.png">
+                </div>
+                <div class="project-body">
+                  <div class="project-tags">
+                    <span class="tag">Computer Vision</span>
+                    <span class="tag">Object Detection</span>
+                    <span class="tag">YOLO</span>
+                  </div>
+                  <h3 class="project-title">Clothing Detection</h3>
+                  <p class="project-desc">
+                    Sistem deteksi pakaian berbasis YOLOv12 yang dirancang untuk
+                    mengenali beberapa kategori pakaian pada gambar serta
+                    dilengkapi dengan demo interaktif menggunakan Gradio.
+                  </p>
+                  <div class="project-stack">
+                    <span>Python</span><span>YOLOv12</span><span>Roboflow</span>
+                  </div>
+                  <div class="project-links">
+                    <a
+                      href="https://github.com/Gabrdvm/clothing-detection-yolov12.git"
+                      class="project-link" target="_blank"
+                      rel="noopener">
+                      <i class="bi bi-github me-1"></i>GitHub
+                    </a>
+                    <a href="#" class="project-link project-link--detail"
+                      data-bs-toggle="modal" data-bs-target="#modalProject1">
+                      Detail <i class="bi bi-arrow-right ms-1"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Project 2-->
+            <div class="col-lg-4 col-md-6" data-category="ai-ml"
+              data-aos="fade-up" data-aos-delay="100">
+              <div class="project-card project-card--full">
+                <div class="project-thumb project-thumb--nlp">
+                  <span class="project-category-badge">NLP</span>
+                  <img src="assets/img/sentimenAnalisis.png"
+                    alt="Sentiment Analysis">
+                </div>
+                <div class="project-body">
+                  <div class="project-tags">
+                    <span class="tag">NLP</span>
+                    <span class="tag">Sentiment Analysis</span>
+                  </div>
+                  <h3 class="project-title">Analisis Sentimen Isu Perundungan
+                    Mahasiswa dari Reddit</h3>
+                  <p class="project-desc">
+                    Analisis sentimen data Reddit terkait isu perundungan
+                    mahasiswa menggunakan NLP berbasis lexicon untuk
+                    mengklasifikasikan opini positif, negatif, dan netral.
+                  </p>
+                  <div class="project-stack">
+                    <span>Python</span><span>PRAW</span><span>Lexicon</span><span>Wordcloud</span>
+                  </div>
+                  <div class="project-links">
+                    <a href="https://github.com/Gabrdvm/sentiment-analysis-reddit" class="project-link" target="_blank"
+                      rel="noopener">
+                      <i class="bi bi-github me-1"></i>GitHub
+                    </a>
+                    <a href="#" class="project-link project-link--detail"
+                      data-bs-toggle="modal" data-bs-target="#modalProject2">
+                      Detail <i class="bi bi-arrow-right ms-1"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Project 3-->
+            <div class="col-lg-4 col-md-6" data-category="ai-ml"
+              data-aos="fade-up" data-aos-delay="200">
+              <div class="project-card project-card--full">
+                <div class="project-thumb project-thumb--dl">
+                  <span class="project-category-badge">Deep Learning</span>
+                  <img src="assets/img/creditCardFraud.jpg" alt="Credit Card Fraud Detection">
+                </div>
+                <div class="project-body">
+                  <div class="project-tags">
+                    <span class="tag">Autoencoder</span>
+                    <span class="tag">ANN</span>
+                  </div>
+                  <h3 class="project-title">Credit Card Fraud Detection using Autoencoder</h3>
+                  <p class="project-desc">
+                    Implementasi Autoencoder untuk deteksi anomali pada data
+                    time series. Digunakan untuk
+                    mengidentifikasi pola tidak normal dalam data sensor dengan
+                    reconstruction error threshold.
+                  </p>
+                  <div class="project-stack">
+                    <span>Python</span><span>Keras</span><span>NumPy</span><span>Matplotlib</span>
+                  </div>
+                  <div class="project-links">
+                    <a href="#" class="project-link" target="_blank"
+                      rel="noopener">
+                      <i class="bi bi-github me-1"></i>GitHub
+                    </a>
+                    <a href="#" class="project-link project-link--detail">
+                      Detail <i class="bi bi-arrow-right ms-1"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Project 4: Web App -->
+            <div class="col-lg-4 col-md-6" data-category="web"
+              data-aos="fade-up" data-aos-delay="0">
+              <div class="project-card project-card--full">
+                <div class="project-thumb project-thumb--web">
+                  <span class="project-category-badge">Web</span>
+                  <div class="project-thumb-icon"><i
+                      class="bi bi-globe2"></i></div>
+                </div>
+                <div class="project-body">
+                  <div class="project-tags">
+                    <span class="tag">Web App</span>
+                    <span class="tag">Full Stack</span>
+                  </div>
+                  <h3 class="project-title">Portfolio Web Application</h3>
+                  <p class="project-desc">
+                    Aplikasi web portfolio berbasis PHP dan MySQL dengan panel
+                    admin untuk manajemen konten,
+                    autentikasi pengguna, dan antarmuka yang responsif.
+                  </p>
+                  <div class="project-stack">
+                    <span>PHP</span><span>MySQL</span><span>Bootstrap</span><span>JS</span>
+                  </div>
+                  <div class="project-links">
+                    <a href="#" class="project-link" target="_blank"
+                      rel="noopener">
+                      <i class="bi bi-github me-1"></i>GitHub
+                    </a>
+                    <a href="#" class="project-link project-link--detail">
+                      Detail <i class="bi bi-arrow-right ms-1"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Project 5: Mobile App -->
+            <div class="col-lg-4 col-md-6" data-category="mobile"
+              data-aos="fade-up" data-aos-delay="100">
+              <div class="project-card project-card--full">
+                <div class="project-thumb project-thumb--mobile">
+                  <span class="project-category-badge">Mobile</span>
+                  <div class="project-thumb-icon"><i
+                      class="bi bi-phone"></i></div>
+                </div>
+                <div class="project-body">
+                  <div class="project-tags">
+                    <span class="tag">Mobile App</span>
+                    <span class="tag">Prototype</span>
+                  </div>
+                  <h3 class="project-title">Mobile App Prototype</h3>
+                  <p class="project-desc">
+                    Prototype aplikasi mobile untuk manajemen tugas akademik
+                    mahasiswa. Dirancang di Figma
+                    dan diimplementasikan menggunakan Flutter dengan UI yang
+                    intuitif.
+                  </p>
+                  <div class="project-stack">
+                    <span>Flutter</span><span>Dart</span><span>Figma</span>
+                  </div>
+                  <div class="project-links">
+                    <a href="#" class="project-link" target="_blank"
+                      rel="noopener">
+                      <i class="bi bi-github me-1"></i>GitHub
+                    </a>
+                    <a href="#" class="project-link project-link--detail">
+                      Detail <i class="bi bi-arrow-right ms-1"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Project 6: UI/UX -->
+            <div class="col-lg-4 col-md-6" data-category="uiux"
+              data-aos="fade-up" data-aos-delay="200">
+              <div class="project-card project-card--full">
+                <div class="project-thumb project-thumb--uiux">
+                  <span class="project-category-badge">UI/UX</span>
+                  <div class="project-thumb-icon"><i
+                      class="bi bi-palette2"></i></div>
+                </div>
+                <div class="project-body">
+                  <div class="project-tags">
+                    <span class="tag">UI/UX</span>
+                    <span class="tag">Figma</span>
+                  </div>
+                  <h3 class="project-title">E-Commerce App Design</h3>
+                  <p class="project-desc">
+                    Desain UI/UX aplikasi e-commerce dengan user research,
+                    wireframing, prototyping, dan
+                    usability testing. Menghasilkan desain high-fidelity yang
+                    siap dikembangkan.
+                  </p>
+                  <div class="project-stack">
+                    <span>Figma</span><span>Prototyping</span><span>User
+                      Research</span>
+                  </div>
+                  <div class="project-links">
+                    <a href="#" class="project-link" target="_blank"
+                      rel="noopener">
+                      <i class="bi bi-figma me-1"></i>Figma
+                    </a>
+                    <a href="#" class="project-link project-link--detail">
+                      Detail <i class="bi bi-arrow-right ms-1"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /Projects -->
+
+      <!-- ======= Certificates Section ======= -->
+      <section id="certificates"
+        class="certificates-section section-pad bg-subtle">
+        <div class="container">
+          <div class="section-header" data-aos="fade-up">
+            <p class="section-eyebrow">Credentials</p>
+            <h2 class="section-heading">Certificates</h2>
+          </div>
+
+          <div class="row g-4 mt-1">
+
+            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="0">
+              <div class="cert-card">
+                <div class="cert-icon"><i
+                    class="bi bi-patch-check-fill"></i></div>
+                <div class="cert-body">
+                  <h4 class="cert-title">Machine Learning Specialization</h4>
+                  <p class="cert-issuer">Coursera — DeepLearning.AI</p>
+                  <p class="cert-date">2024</p>
+                </div>
+                <a href="#" target="_blank" rel="noopener" class="cert-link"
+                  aria-label="Lihat sertifikat">
+                  <i class="bi bi-box-arrow-up-right"></i>
+                </a>
+              </div>
+            </div>
+
+            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+              <div class="cert-card">
+                <div class="cert-icon"><i
+                    class="bi bi-patch-check-fill"></i></div>
+                <div class="cert-body">
+                  <h4 class="cert-title">TensorFlow Developer Certificate</h4>
+                  <p class="cert-issuer">Google — TensorFlow</p>
+                  <p class="cert-date">2024</p>
+                </div>
+                <a href="#" target="_blank" rel="noopener" class="cert-link"
+                  aria-label="Lihat sertifikat">
+                  <i class="bi bi-box-arrow-up-right"></i>
+                </a>
+              </div>
+            </div>
+
+            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="0">
+              <div class="cert-card">
+                <div class="cert-icon"><i
+                    class="bi bi-patch-check-fill"></i></div>
+                <div class="cert-body">
+                  <h4 class="cert-title">Computer Vision with Python</h4>
+                  <p class="cert-issuer">Dicoding Indonesia</p>
+                  <p class="cert-date">2023</p>
+                </div>
+                <a href="#" target="_blank" rel="noopener" class="cert-link"
+                  aria-label="Lihat sertifikat">
+                  <i class="bi bi-box-arrow-up-right"></i>
+                </a>
+              </div>
+            </div>
+
+            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+              <div class="cert-card">
+                <div class="cert-icon"><i
+                    class="bi bi-patch-check-fill"></i></div>
+                <div class="cert-body">
+                  <h4 class="cert-title">UI/UX Design Fundamentals</h4>
+                  <p class="cert-issuer">Google — Coursera</p>
+                  <p class="cert-date">2023</p>
+                </div>
+                <a href="#" target="_blank" rel="noopener" class="cert-link"
+                  aria-label="Lihat sertifikat">
+                  <i class="bi bi-box-arrow-up-right"></i>
+                </a>
+              </div>
+            </div>
+
+            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="0">
+              <div class="cert-card">
+                <div class="cert-icon"><i
+                    class="bi bi-patch-check-fill"></i></div>
+                <div class="cert-body">
+                  <h4 class="cert-title">Web Development Bootcamp</h4>
+                  <p class="cert-issuer">Bangkit Academy</p>
+                  <p class="cert-date">2023</p>
+                </div>
+                <a href="#" target="_blank" rel="noopener" class="cert-link"
+                  aria-label="Lihat sertifikat">
+                  <i class="bi bi-box-arrow-up-right"></i>
+                </a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+      <!-- /Certificates -->
+
+      <!-- ======= Organizations Section ======= -->
+      <section id="organizations" class="org-section section-pad">
+        <div class="container">
+          <div class="section-header" data-aos="fade-up">
+            <p class="section-eyebrow">Community</p>
+            <h2 class="section-heading">Organizations</h2>
+          </div>
+
+          <div class="row g-4 mt-1">
+
+            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="0">
+              <div class="org-card">
+                <div class="org-header">
+                  <div class="org-icon"><i class="bi bi-people-fill"></i></div>
+                  <div>
+                    <h4 class="org-name">Himpunan Mahasiswa Informatika</h4>
+                    <p class="org-role">Anggota Divisi Teknologi</p>
+                  </div>
+                  <span class="org-period">2022 – Sekarang</span>
+                </div>
+                <p class="org-desc">
+                  Aktif dalam kegiatan pengembangan teknologi kampus, workshop
+                  coding, dan kompetisi
+                  programming. Berkontribusi dalam pengelolaan website resmi
+                  HMIF.
+                </p>
+              </div>
+            </div>
+
+            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+              <div class="org-card">
+                <div class="org-header">
+                  <div class="org-icon"><i class="bi bi-laptop"></i></div>
+                  <div>
+                    <h4 class="org-name">AI/ML Study Club</h4>
+                    <p class="org-role">Core Member & Trainer</p>
+                  </div>
+                  <span class="org-period">2023 – Sekarang</span>
+                </div>
+                <p class="org-desc">
+                  Komunitas belajar AI/ML internal kampus. Menjadi trainer untuk
+                  sesi workshop
+                  Python for Data Science dan pengenalan Machine Learning bagi
+                  anggota baru.
+                </p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+      <!-- /Organizations -->
+
+      <!-- ======= Achievements Section ======= -->
+      <section id="achievements"
+        class="achievements-section section-pad bg-subtle">
+        <div class="container">
+          <div class="section-header" data-aos="fade-up">
+            <p class="section-eyebrow">Recognition</p>
+            <h2 class="section-heading">Achievements</h2>
+          </div>
+
+          <div class="row g-4 mt-1">
+
+            <div class="col-lg-4 col-md-6" data-aos="fade-up"
+              data-aos-delay="0">
+              <div class="achievement-card">
+                <div class="achievement-icon"><i
+                    class="bi bi-trophy-fill"></i></div>
+                <h4 class="achievement-title">Juara 2 Hackathon AI</h4>
+                <p class="achievement-event">National AI Innovation Competition
+                  2024</p>
+                <p class="achievement-desc">
+                  Tim mengembangkan solusi Computer Vision untuk deteksi
+                  penyakit tanaman berbasis mobile.
+                </p>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6" data-aos="fade-up"
+              data-aos-delay="100">
+              <div class="achievement-card">
+                <div class="achievement-icon achievement-icon--silver"><i
+                    class="bi bi-award-fill"></i></div>
+                <h4 class="achievement-title">Finalis Competitive
+                  Programming</h4>
+                <p class="achievement-event">ICPC Regional 2023</p>
+                <p class="achievement-desc">
+                  Berhasil masuk babak final dari 200+ tim dengan menyelesaikan
+                  problem algoritma dan struktur data.
+                </p>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6" data-aos="fade-up"
+              data-aos-delay="200">
+              <div class="achievement-card">
+                <div class="achievement-icon achievement-icon--bronze"><i
+                    class="bi bi-star-fill"></i></div>
+                <h4 class="achievement-title">Best Project UI/UX Design</h4>
+                <p class="achievement-event">Capstone Project Bangkit 2023</p>
+                <p class="achievement-desc">
+                  Mendapat penghargaan Best Project untuk kategori UI/UX Design
+                  pada program Bangkit Academy.
+                </p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+      <!-- /Achievements -->
+
+    </main>
+
+    <!-- Project Detail 1 -->
+    <div class="modal fade" id="modalProject1" tabindex="-1"
+      aria-labelledby="modalProject1Label" aria-hidden="true">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content project-modal">
+          <div class="modal-header">
+            <h5 class="modal-title" id="modalProject1Label">Clothing
+              Detection</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal"
+              aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="modal-thumb project-thumb--cv mb-4"
+              style="height:200px; border-radius:12px;">
+              <div class="project-thumb-icon" style="font-size:3rem;">
+                <img src="assets/img/clothingDetection.png">
+              </div>
+            </div>
+            <div class="project-tags mb-3">
+              <span class="tag">Python</span>
+              <span class="tag">YOLOv12.s</span>
+              <span class="tag">Roboflow</span>
+              <span class="tag">Computer Vision</span>
+              <span class="tag">Ultralytics</span>
+            </div>
+            <h6 class="modal-section-title">Deskripsi</h6>
+            <p>
+              Proyek ini merupakan sistem deteksi objek pakaian berbasis
+              computer vision menggunakan model YOLOv12. Model dilatih dengan
+              dataset kustom dari Roboflow untuk mengenali beberapa kategori
+              pakaian pada gambar, yaitu dress, jacket, pants, shirt, short,
+              skirt, sweater, T-shirt. Alur proyek mencakup persiapan dataset,
+              training model, validasi performa menggunakan metrik object
+              detection, serta pengujian prediksi pada gambar baru. Selain model
+              utama, proyek ini juga dilengkapi dengan antarmuka interaktif
+              berbasis Gradio sehingga pengguna dapat mengunggah gambar,
+              mengatur confidence threshold, dan melihat hasil deteksi beserta
+              detail objek yang teridentifikasi.
+            </p>
+            <h6 class="modal-section-title">Fitur Utama</h6>
+            <ul>
+              <li>Melatih model YOLOv12 untuk mendeteksi beberapa kategori
+                pakaian dari dataset kustom.</li>
+              <li>Menggunakan dataset hasil anotasi dari Roboflow dalam format
+                YOLO.</li>
+              <li>Melakukan evaluasi performa model menggunakan metrik seperti
+                precision, recall, mAP50, dan mAP50-95.</li>
+              <li>Menampilkan visualisasi hasil evaluasi dalam bentuk grafik
+                metrik dan confusion matrix.</li>
+              <li>Melakukan prediksi pada gambar baru untuk melihat hasil
+                deteksi objek pakaian secara langsung.</li>
+              <li>Menyediakan demo interaktif berbasis Gradio untuk upload
+                gambar dan pengujian model secara sederhana.</li>
+            </ul>
+            <h6 class="modal-section-title">Tech Stack</h6>
+            <div class="project-stack">
+              <span>Python</span>
+              <span>YOLOv12</span>
+              <span>Roboflow</span>
+              <span>OpenCV</span>
+              <span>Pandas</span>
+              <span>Matplotlib</span>
+              <span>Scikit-learn</span>
+              <span>Gradio</span>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <a href="#" class="btn-outline-custom btn-sm" target="_blank"
+              rel="noopener">
+              <i class="bi bi-github me-2"></i>GitHub
+            </a>
+            <button type="button" class="btn-secondary-custom"
+              data-bs-dismiss="modal">Tutup</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Project Detail 2  -->
+    <div class="modal fade" id="modalProject2" tabindex="-1"
+      aria-labelledby="modalProject2Label" aria-hidden="true">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content project-modal">
+          <div class="modal-header">
+            <h5 class="modal-title" id="modalProject2Label">Clothing
+              Detection</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal"
+              aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="modal-thumb project-thumb--cv mb-4"
+              style="height:200px; border-radius:12px;">
+              <div class="project-thumb-icon" style="font-size:3rem;">
+                <img src="assets/img/sentimenAnalisis.png">
+              </div>
+            </div>
+            <div class="project-tags mb-3">
+              <span class="tag">Python</span>
+              <span class="tag">YOLOv12.s</span>
+              <span class="tag">Roboflow</span>
+              <span class="tag">Computer Vision</span>
+              <span class="tag">Ultralytics</span>
+            </div>
+            <h6 class="modal-section-title">Deskripsi</h6>
+            <p">
+              Model YOLO yang dikembangkan untuk mendeteksi pakaian yang terdiri
+              dari dress, jacket, pants, shirt, short, skirt, sweater, T-shirt
+              menggunakan YOLOv12.s.
+              Model dilatih menggunakan custom dataset dengan augmentasi data
+              untuk meningkatkan performa. Model mencapai precision sebesar 87%.
+            </p>
+            <h6 class="modal-section-title">Fitur Utama</h6>
+            <ul>
+              <li>Mengambil data postingan Reddit dari beberapa subreddit
+                berdasarkan keyword tertentu menggunakan Reddit API.</li>
+              <li>Melakukan preprocessing teks bahasa Indonesia, termasuk
+                cleaning text, normalisasi kata tidak baku, dan penghapusan
+                stopwords.</li>
+              <li>Menerjemahkan teks hasil preprocessing ke bahasa Inggris
+                sebagai pendukung eksplorasi data.</li>
+              <li>Menghitung skor sentimen menggunakan pendekatan lexicon-based
+                sentiment analysis.</li>
+              <li>Mengklasifikasikan opini ke dalam kategori sentimen positif,
+                negatif, dan netral.</li>
+              <li>Menampilkan distribusi sentimen dalam bentuk grafik
+                batang.</li>
+              <li>Membuat visualisasi word cloud untuk melihat kata-kata yang
+                paling sering muncul pada data.</li>
+            </ul>
+            <h6 class="modal-section-title">Tech Stack</h6>
+            <div class="project-stack">
+              <span>Python</span>
+              <span>PRAW</span>
+              <span>Pandas</span>
+              <span>NLTK</span>
+              <span>Googletrans</span>
+              <span>Matplotlib</span>
+              <span>WordCloud</span>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <a href="#" class="btn-outline-custom btn-sm" target="_blank"
+              rel="noopener">
+              <i class="bi bi-github me-2"></i>GitHub
+            </a>
+            <button type="button" class="btn-secondary-custom"
+              data-bs-dismiss="modal">Tutup</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Project Detail 3 -->
+    <div class="modal fade" id="modalProject3" tabindex="-1"
+      aria-labelledby="modalProject3Label" aria-hidden="true">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content project-modal">
+          <div class="modal-header">
+            <h5 class="modal-title" id="modalProject3Label">Clothing
+              Detection</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal"
+              aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="modal-thumb project-thumb--cv mb-4"
+              style="height:200px; border-radius:12px;">
+              <div class="project-thumb-icon" style="font-size:3rem;">
+                <img src="assets/img/clothingDetection.png">
+              </div>
+            </div>
+            <div class="project-tags mb-3">
+              <span class="tag">Python</span>
+              <span class="tag">YOLOv12.s</span>
+              <span class="tag">Roboflow</span>
+              <span class="tag">Computer Vision</span>
+              <span class="tag">Ultralytics</span>
+            </div>
+            <h6 class="modal-section-title">Deskripsi</h6>
+            <p">
+              Model YOLO yang dikembangkan untuk mendeteksi pakaian yang terdiri
+              dari dress, jacket, pants, shirt, short, skirt, sweater, T-shirt
+              menggunakan YOLOv12.s.
+              Model dilatih menggunakan custom dataset dengan augmentasi data
+              untuk meningkatkan performa. Model mencapai precision sebesar 87%.
+            </p>
+            <h6 class="modal-section-title">Fitur Utama</h6>
+            <ul>
+              <li>GUI interaktif untuk deteksi pakaian.</li>
+              <li>Memiliki kelas yang beragam. </li>
+              <li>Custom dataset dengan menggunakan anotasi di roboflow. </li>
+            </ul>
+            <h6 class="modal-section-title">Tech Stack</h6>
+            <div class="project-stack">
+              <span>Python</span><span>YOLOv12</span><span>Ultralytics</span><span>Roboflow</span>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <a href="#" class="btn-outline-custom btn-sm" target="_blank"
+              rel="noopener">
+              <i class="bi bi-github me-2"></i>GitHub
+            </a>
+            <button type="button" class="btn-secondary-custom"
+              data-bs-dismiss="modal">Tutup</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ======= Footer ======= -->
+    <footer id="footer" class="site-footer">
+      <div class="container">
+        <div class="row gy-5">
+          <div class="col-lg-4">
+            <a href="index.html" class="footer-logo">GDM<span>.</span></a>
+            <p class="footer-desc">
+              Mahasiswa Informatika yang passionate di bidang AI, Machine
+              Learning, dan Software Development.
+            </p>
+            <div class="footer-social">
+              <a href="https://github.com/" target="_blank" rel="noopener"
+                aria-label="GitHub"><i class="bi bi-github"></i></a>
+              <a href="https://linkedin.com/" target="_blank" rel="noopener"
+                aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+              <a href="https://instagram.com/" target="_blank" rel="noopener"
+                aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+            </div>
+          </div>
+          <div class="col-6 col-lg-2 offset-lg-1">
+            <h6 class="footer-heading">Quick Links</h6>
+            <ul class="footer-links">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="experience.html">Experience</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+          <div class="col-6 col-lg-3">
+            <h6 class="footer-heading">Contact</h6>
+            <ul class="footer-links">
+              <li><a href="mailto:gabriel@email.com">gabriel@email.com</a></li>
+              <li><a href="tel:+62812345678">+62 812-3456-78</a></li>
+              <li><span>Jakarta, Indonesia</span></li>
+            </ul>
+          </div>
+          <div class="col-lg-2">
+            <h6 class="footer-heading">Resume</h6>
+            <a href="assets/cv/Gabriel_Davinche_Manalu_CV.pdf" download
+              class="btn-cv-footer">
+              <i class="bi bi-download me-2"></i>Download CV
+            </a>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>© 2025 Gabriel Davinche Manalu. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Scroll Top -->
+    <a href="#" id="scroll-top" class="scroll-top" aria-label="Scroll to top">
+      <i class="bi bi-arrow-up-short"></i>
+    </a>
+
+    <!-- Preloader -->
+    <div id="preloader"></div>
+
+    <!-- Vendor JS -->
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+
+    <!-- Main JS -->
+    <script src="assets/js/main.js"></script>
+
+  </body>
+</html>
