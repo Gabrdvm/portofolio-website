@@ -1,11 +1,3 @@
-/*
- * ============================================================
- * main.css — Gabriel Davinche Manalu Portfolio
- * Design System: Blue-Indigo accent, Plus Jakarta Sans
- * Author: Gabriel Davinche Manalu
- * ============================================================
- */
-
 /* ============================================================
    1. DESIGN TOKENS
    ============================================================ */
@@ -35,7 +27,7 @@
   --font-base: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
 
   /* Spacing */
-  --section-pad:    80px;
+  --section-pad:    40px;
   --section-pad-sm: 48px;
   --section-pad-xs: 20px;
 
@@ -1467,13 +1459,13 @@ ul { margin: 0; padding: 0; list-style: none; }
   font-size: 1rem;
   color: var(--color-text-muted);
   line-height: 1.8;
-  margin-bottom: 32px;
+  
 }
 
 .contact-items {
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: 6px;
 }
 
 .contact-item {
@@ -1562,73 +1554,6 @@ ul { margin: 0; padding: 0; list-style: none; }
 .contact-item:not(.contact-item--plain):hover .contact-item-arrow {
   opacity: 1;
   transform: translateX(0);
-}
-
-/* Contact form */
-.contact-form-wrap {
-  background: var(--color-surface);
-  border: 1px solid var(--color-border);
-  border-radius: var(--radius-lg);
-  padding: 36px;
-}
-
-.contact-form-title {
-  font-size: 1.25rem;
-  font-weight: 700;
-  color: var(--color-heading);
-  margin-bottom: 24px;
-}
-
-.form-group { margin-bottom: 0; }
-
-.form-label-custom {
-  display: block;
-  font-size: 0.8rem;
-  font-weight: 600;
-  color: var(--color-text);
-  margin-bottom: 6px;
-}
-
-.form-input {
-  display: block;
-  width: 100%;
-  font-family: var(--font-base);
-  font-size: 0.9rem;
-  color: var(--color-text);
-  background: var(--color-bg-subtle);
-  border: 1px solid var(--color-border);
-  border-radius: var(--radius-sm);
-  padding: 11px 14px;
-  transition: all var(--t-base);
-  outline: none;
-}
-
-.form-input:focus {
-  border-color: var(--color-accent);
-  background: var(--color-bg);
-  box-shadow: 0 0 0 3px rgba(79,70,229,.1);
-}
-
-.form-input::placeholder {
-  color: #9ca3af;
-}
-
-.form-textarea {
-  resize: vertical;
-  min-height: 140px;
-}
-
-.alert-success-custom {
-  display: flex;
-  align-items: center;
-  padding: 14px 18px;
-  background: #f0fdf4;
-  border: 1px solid #bbf7d0;
-  border-radius: var(--radius-md);
-  color: #16a34a;
-  font-size: 0.875rem;
-  font-weight: 600;
-  margin-bottom: 20px;
 }
 
 /* ============================================================
